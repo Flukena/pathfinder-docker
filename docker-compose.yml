@@ -6,7 +6,7 @@ services:
     user: root
     environment:
      - RUST_LOG=info
-     - PATHFINDER_ETHEREUM_API_URL=https://eth-mainnet.alchemyapi.io/v2/XXXXXXXXXXX
+     - PATHFINDER_ETHEREUM_API_URL=https://eth-mainnet.alchemyapi.io/v2/1uyWHeG_5K3cZZDrqu-l0rJgybBigOhB
     ports:
       - "9545:9545"
     restart: always
